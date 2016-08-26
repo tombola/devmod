@@ -1,0 +1,7 @@
+dev_mod.description:
+  title: Page Example
+  route_name: dev_mod_description
+  expanded: TRUE
+
+# We can't define a menu link for the dev_mod_arguments route, because it
+# requires path arguments.
