@@ -7,18 +7,6 @@
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
- * @defgroup dev_mod Example: Page
- * @ingroup examples
- * @{
- * This example demonstrates how a module can display a page at a given URL.
- *
- * It's important to understand how the menu system works in order to
- * implement your own pages. See the Menu Example module for some insight.
- *
- * @see menu_example
- */
-
-/**
  * Implements hook_help().
  *
  * Through hook_help(), a module can make documentation available to the user
@@ -54,6 +42,26 @@ function dev_mod_help($route_name, RouteMatchInterface $route_match) {
   }
 }
 
-/**
- * @} End of "defgroup dev_mod".
- */
+// /**
+//  * Implementation of hook_views_pre_build().
+//  */
+// function dev_mod_views_pre_build(&$view) {
+//   echo 'dev_mod_views_pre_build';
+//   die;
+// }
+
+// /**
+//  * Implementation of hook_views_post_execute().
+//  */
+// function dev_mod_views_post_execute(&$view) {
+//   echo 'dev_mod_views_post_execute';
+//   die;
+// }
+
+// /**
+//  * Implementation of hook_views_data_alter().
+//  */
+// function dev_mod_views_data_alter(&$data) {
+//   echo 'dev_mod_views_data_alter';
+//   die;
+// }

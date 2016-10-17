@@ -21,3 +21,11 @@ dev_mod_description:
     _title: 'DevMod'
   requirements:
     _permission: 'access content'
+
+dev_mod_image:
+  path: 'devmodimage'
+  defaults:
+    _controller: '\Drupal\dev_mod\Controller\DevModController::getResponsiveImage'
+    _title: 'DevModImage'
+  requirements:
+    _permission: 'access content'
